@@ -1,0 +1,115 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(27, 24, 24);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+.titre{
+    text-align: center; 
+    color:azure;
+    
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color:rgb(153, 63, 30);
+    width:50%;
+    border-radius: 15px;
+}
+.central{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+}
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+    }
+.miseEnPage{
+    
+    border-top: 20px;
+    padding: 1em;
+    background-color: aliceblue;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: justify;
+
+   
+}
+
+.enjambage{
+    padding: 10px;
+   width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    line-height:2em;
+    text-align: justify;
+    text-decoration: none;
+
+    }
+    .enjambage:hover{
+        background-color: bisque;
+    }
+    textarea{
+        resize: none;
+        background-color: lightgrey;
+    }
+    #sujet{
+        background-color: lightgrey;
+    }
+    #for{
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+    footer{
+        background-color: rgb(51, 48, 48);
+        
+        border-radius: 1px;
+        width: 100%;
+        height: 100px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    footer > div > p{
+        color:whitesmoke;
+
+        padding-top: 0.5em;
+    }
+    .miseEnPage:hover{
+        background-color:bisque;
+    }
+    @media only screen and (max-width: 600px) {
+        body {
+            
+        }
+        .miseEnPage{
+            padding: 10px;
+            width: 50%;
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+             margin: auto;
+             background-color: aliceblue;
+             border-radius: 10px;
+             margin: 10px;
+             line-height:2em;
+             text-align: justify;
+             text-decoration: none;
+        
+           
+        }
+    }
